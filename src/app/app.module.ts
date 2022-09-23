@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatMenuModule } from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +29,8 @@ const Ux_Modules = [
   MatToolbarModule,
   MatCardModule,
   MatInputModule,
+  MatGridListModule,
+  MatMenuModule
 ]
 
 
