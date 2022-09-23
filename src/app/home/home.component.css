@@ -1,0 +1,13 @@
+
+body, html{
+    
+}
+
+.container{
+    height: 90vh;
+    background: #FBF8F1;
+}
+
+.card{
+    padding-left: 20px;
+}
