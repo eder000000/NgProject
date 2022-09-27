@@ -1,37 +1,52 @@
 
 body, html{
-    
+  font-size: 100%;
 }
-
 .container{
-    height: 90vh;
+    height: 100vh;
     background: #FBF8F1;
 }
 
-.card{
-    padding-left: 20px;
-}
-
-
-.grid-container {
-    margin: 20px;
-  }
-  
-  .dashboard-card {
+  .card {
+    background: #FBF8F1;
     position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-  }
-  
-  .more-button {
-    position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 30%;
+    margin-left: 0px;
+    right: 0px;
+    bottom: 0px;
+    min-width: 300px;
   }
   
   .dashboard-card-content {
-    text-align: center;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  mat-card-subtitle{
+    font-size: .85rem;
+    margin-left: 5px;
+  }
+
+  mat-card-title{
+    font-size: 2.197rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+
+img {
+  margin-top: 5px;
+    max-width: 62px;
+    max-height: 62px;
+    min-width: 52px;
+    min-height: 52px;
+  }
+
+  .intro{
+    height: 80px;
+  }
+
+  .about{
+    height: 100px;
   }
   

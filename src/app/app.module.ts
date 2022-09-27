@@ -21,6 +21,9 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import { PostsComponent } from './home/posts/posts.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
 
 const Ux_Modules = [
   MatButtonModule,
@@ -30,7 +33,8 @@ const Ux_Modules = [
   MatCardModule,
   MatInputModule,
   MatGridListModule,
-  MatMenuModule
+  MatMenuModule,
+  FlexLayoutModule
 ]
 
 
