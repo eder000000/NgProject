@@ -1,0 +1,49 @@
+body, html{
+    font-size: 100%;
+  }
+  .container{
+      height: 100vh;
+      background: #FBF8F1;
+  }
+  .card-greater {
+    background: #FBF8F1;
+    top: 30%;
+    align-items: center;
+    min-width: 00px;
+  }
+  .dashboard-card-content-greater{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 26pt;
+    margin-top: 20px;
+    max-width: 70%;
+  }
+  .sub-greater mat-card-subtitle{
+    font-size: 1.5rem;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+ .title-greater mat-card-title{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  img {
+    margin-top: 5px;
+      max-width: 62px;
+      max-height: 62px;
+      min-width: 52px;
+      min-height: 52px;
+    }
+
+  .me{
+    height: 600px;
+  }
+
+
+  .about{
+    height: 100px;
+  }
+  
