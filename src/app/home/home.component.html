@@ -1,5 +1,5 @@
 <div class="container">
-<mat-card class="card mat-elevation-z0 outline">
+<mat-card class="card mat-elevation-z0 outline" fxShow fxHide.xs="false" fxHide.gt-sm="true">
   <!-- content -->
   <mat-card-content>
     <div fxLayout="column">
@@ -7,17 +7,11 @@
       <!-- Column-2 -->
       <div fxLayout="row">
         <!-- Column-2 Row-1-->
-        <div class = "intro" fxLayout="column" fxFlex="30"   fxLayoutAlign="start center">
+        <div class = "intro" fxLayout="column" fxFlex="30" fxLayoutAlign="start center">
           <div fxLayout="row" fxFlex="50%" fxFlexFill fxLayoutAlign="end center"><mat-card-subtitle>Hi, my name is</mat-card-subtitle></div>
           <div fxLayout="row" fxFlex="50%" fxFlexFill  fxLayoutAlign="end start"><mat-card-title>Eder</mat-card-title></div>
          
         </div>
-        <!-- Column-2 Row-2-->
-<!--         <div fxLayout="row" fxFlex="70" fxFlexFill style="background-color: #e8fd74" fxLayoutAlign="space-around strech">
-          <div fxFlex="30" style="background-color: #f1fac0" fxLayoutAlign="center center">column2, row2-1</div>
-          <div fxFlex="30" style="background-color: #f1fac0" fxLayoutAlign="center center">column2, row2-2</div>
-          <div fxFlex="30" style="background-color: #f1fac0" fxLayoutAlign="center center">column2, row2-3</div>
-        </div> -->
       </div>
       <!-- Column-3 -->
       <div class="about" fxLayout="row">
@@ -30,4 +24,24 @@
     </div>
   </mat-card-content>
 </mat-card>
-</div>
+
+  <mat-card class="card-greater mat-elevation-z0 outline" fxShow fxHide.lt-md="true" fxHide.gt-md="false">
+    <mat-card-content>
+      <div fxLayout="column">
+        <div fxLayout="row">
+          <div class = "intro-greater" fxLayout="column" fxFlex="100" fxLayoutAlign="center center">
+            <div class="sub-greater" fxLayout="row" fxFlex="100%" fxFlexFill fxLayoutAlign="center center"><mat-card-subtitle>Hi, my name is</mat-card-subtitle></div>
+            <div class="title-greater" fxLayout="row" fxFlex="100%" fxFlexFill  fxLayoutAlign="center center"><mat-card-title>Eder</mat-card-title></div>
+            <div class="greater" fxLayout="row" fxFlex="100%" fxFlexFill  fxLayoutAlign="center center"><img src="\assets\img\logo.png" alt="Eder Software developer"></div>
+            <div fxLayout="row" fxFlexFill  fxLayoutAlign="center center">
+              <p class="dashboard-card-content-greater">I’m a software engineer located in Guadalajara, especialized 
+                in building web stuff and databases with high attention to detail.</p></div>
+          </div>
+          </div>
+        </div>
+    </mat-card-content>
+  </mat-card>
+
+
+  
+  </div>

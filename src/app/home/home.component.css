@@ -16,6 +16,13 @@ body, html{
     bottom: 0px;
     min-width: 300px;
   }
+
+  .card-greater {
+    background: #FBF8F1;
+    top: 30%;
+    align-items: center;
+    min-width: 00px;
+  }
   
   .dashboard-card-content {
     text-align: left;
@@ -23,14 +30,25 @@ body, html{
     margin-left: 15px;
   }
 
-  mat-card-subtitle{
-    font-size: .85rem;
-    margin-left: 5px;
+  .dashboard-card-content-greater{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 26pt;
+    margin-top: 20px;
+    max-width: 50%;
   }
 
-  mat-card-title{
-    font-size: 2.197rem;
-    margin-top: 5px;
+  
+  
+.sub-greater mat-card-subtitle{
+    font-size: 1.5rem;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+ .title-greater mat-card-title{
+    font-size: 3rem;
+    margin-top: 20px;
     margin-bottom: 15px;
   }
 
@@ -42,9 +60,18 @@ img {
     min-height: 52px;
   }
 
+  .greater img{
+    margin-top: 20px;
+    max-width: 92px;
+    max-height: 92px;
+    min-width: 72px;
+    min-height: 72px;
+  }
+
   .intro{
     height: 80px;
   }
+
 
   .about{
     height: 100px;
