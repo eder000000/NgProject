@@ -1,0 +1,67 @@
+
+body, html{
+    font-size: 100%;
+  }
+
+  .container{
+      background: #FBF8F1;
+  }
+  
+    .card-design {
+      background: #FBF8F1;
+      margin-top: 20px;
+      margin-left: 0px;
+      right: 0px;
+      bottom: 0px;
+      min-width: 350px;
+    }
+  
+
+    
+    
+.title{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.title-tool{
+    font-size: .8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+mat-card-subtitle{
+      font-size: 1.5rem;
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+  
+mat-card-title{
+      font-size: 3rem;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  
+  img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 42px;
+    max-height: 42px;
+    min-width: 32px;
+    min-height: 32px;
+    }
+  
+  
+    .intro{
+      height: 80px;
+    }
+  

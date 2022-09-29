@@ -22,6 +22,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import { PostsComponent } from './home/posts/posts.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 
@@ -34,7 +35,8 @@ const Ux_Modules = [
   MatInputModule,
   MatGridListModule,
   MatMenuModule,
-  FlexLayoutModule
+  FlexLayoutModule,
+  MatDividerModule
 ]
 
 
