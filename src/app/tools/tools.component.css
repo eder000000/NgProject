@@ -4,20 +4,17 @@ body, html{
   }
 
   .container{
-      background: #FBF8F1;
+    background: #FBF8F1;
   }
   
     .card-design {
-      background: #FBF8F1;
-      margin-top: 20px;
-      margin-left: 0px;
-      right: 0px;
-      bottom: 0px;
-      min-width: 350px;
+    background: #FBF8F1;
+    margin-top: 20px;
+    margin-left: 0px;
+    right: 0px;
+    bottom: 0px;
+    min-width: 350px;
     }
-  
-
-    
     
 .title{
     font-size: 1.1rem;
@@ -61,7 +58,34 @@ mat-card-title{
     }
   
   
-    .intro{
+.intro{
       height: 80px;
-    }
+}
   
+.card-big {
+        background: #FBF8F1;
+        margin-top: 20px;
+        margin-left: 0px;
+        right: 0px;
+        bottom: 0px;
+}
+
+.title-big{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.title-tool-big{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text-big{
+    font-size: 1.25rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
