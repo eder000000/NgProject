@@ -23,6 +23,7 @@ import {MatInputModule} from '@angular/material/input';
 import { PostsComponent } from './home/posts/posts.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatDividerModule } from '@angular/material/divider';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 
@@ -51,7 +52,8 @@ const Ux_Modules = [
     ToolsComponent,
     MeComponent,
     SidenavComponent,
-    PostsComponent
+    PostsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

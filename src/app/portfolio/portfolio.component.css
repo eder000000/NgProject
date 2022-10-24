@@ -1,0 +1,153 @@
+
+body, html{
+    font-size: 100%;
+  }
+
+  .container{
+    background: #FBF8F1;
+  }
+  
+    .card-design {
+    background: #e4dfda;
+    margin-top: 20px;
+    margin-left: 0px;
+    right: 0px;
+    bottom: 0px;
+    min-width: 350px;
+    }
+    
+.title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.title-big{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 1rem;
+}
+
+.tools-name{
+    font-size: .8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.tools-name-big{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.sub-title-project{
+    font-size: .8rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.portfolio-text-big{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.tools-area{
+    font-size: .8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #562c2c;
+}
+
+.tools-area-big{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #562c2c;
+}
+
+.project-desc{
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+mat-card-subtitle{
+      font-size: 1.5rem;
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+  
+mat-card-title{
+      font-size: 3rem;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  
+.preview-img-small {
+    margin-bottom: 4em;
+    max-width: 100px;
+    max-height: auto;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 2%;
+    margin-top: 4em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+
+
+  .preview-img-big {
+    margin-bottom: 15px;
+    max-width: 350px;
+    max-height: auto;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 2%;
+    margin-top: 10em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  
+  
+.intro{
+      height: 80px;
+}
+  
+.card-big {
+        background: #FBF8F1;
+        margin-top: 20px;
+        margin-left: 0px;
+        right: 0px;
+        bottom: 0px;
+}
+
+.title-big{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.title-tool-big{
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text-big{
+    font-size: 1.25rem;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
