@@ -24,6 +24,7 @@ import { PostsComponent } from './home/posts/posts.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatDividerModule } from '@angular/material/divider';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CofeeOneComponent } from './cofee-one/cofee-one.component';
 
 
 
@@ -53,7 +54,8 @@ const Ux_Modules = [
     MeComponent,
     SidenavComponent,
     PostsComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    CofeeOneComponent
   ],
   imports: [
     BrowserModule,
