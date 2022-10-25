@@ -1,0 +1,24 @@
+body, html{
+    font-size: 100%;
+  }
+
+  .card-greater {
+    background: black;
+    top: 25%;
+    align-items: center;
+  }
+
+  .dashboard-card-content-greater{
+    text-align: center;
+    line-height: 20pt;
+    margin-top: 25%;
+    max-width: 80%;
+  }
+  .me{
+    color: white;
+    height: 100vh;
+  }
+
+  .coffee{
+margin-top: 1rem;
+  }
