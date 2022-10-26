@@ -2,17 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent} from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { MeComponent } from './me/me.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 const routes: Routes = [
   {path:'', component: HeaderComponent,
   children : [
-    {path: 'home', component: HomeComponent},
-    {path: 'me', component: MeComponent}
-    
-  ]
-  },
+    {path: 'home', component: HomeComponent}
+  ]},
+  {path: 'contact-form', component: ContactFormComponent},
+  { path: '**', redirectTo: '/header', pathMatch: 'full' }
 ];
   
 

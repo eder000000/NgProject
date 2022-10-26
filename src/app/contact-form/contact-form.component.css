@@ -1,0 +1,39 @@
+body, html{
+
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(180deg, 
+    hsla(208, 33%, 21%, 1) 0%, 
+    hsla(211, 36%, 46%, 1) 100%);
+}
+
+
+.card-form{
+    margin-top: 5rem;
+    background-color: white;
+    width: 90%;
+    max-width: 550px;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+
+.button_{
+    margin-top: 4rem;
+}
+
+.mat-stroked-button :mat-success:hover{
+    background: red;
+}
+
+.mat-form-field{
+    width: 95%;
+}
+
+.example-full-width{
+    width: 100%;
+}
+
+  

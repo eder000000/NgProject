@@ -25,6 +25,15 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatDividerModule } from '@angular/material/divider';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CofeeOneComponent } from './cofee-one/cofee-one.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatTableModule} from '@angular/material/table';
+import {FormsModule} from '@angular/forms';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatTreeModule} from '@angular/material/tree';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatStepperModule} from '@angular/material/stepper';
 
 
 
@@ -38,7 +47,13 @@ const Ux_Modules = [
   MatGridListModule,
   MatMenuModule,
   FlexLayoutModule,
-  MatDividerModule
+  MatDividerModule,
+  MatFormFieldModule,
+  MatTableModule,
+  MatNativeDateModule,
+  MatTreeModule,
+  MatCheckboxModule,
+  MatStepperModule
 ]
 
 
@@ -49,21 +64,23 @@ const Ux_Modules = [
     HeaderComponent,
     HomeComponent,
     ContactOneComponent,
-    ContactFormComponent,
     ToolsComponent,
     MeComponent,
     SidenavComponent,
     PostsComponent,
     PortfolioComponent,
-    CofeeOneComponent
+    CofeeOneComponent,
+    ContactFormComponent 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
-    Ux_Modules,
+    Ux_Modules
+    
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

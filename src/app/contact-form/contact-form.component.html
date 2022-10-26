@@ -1,1 +1,94 @@
-<p>contact-form works!</p>
+<div class="container" fxLayout="row" fxLayoutAlign="space-around start" >
+<mat-card class="card-form mat-elevation-z0 outline">
+  <mat-card-content>
+    <div fxLayout="column">
+      <div fxLayout="row" fxLayoutAlign="space-around  center" >
+          <form class="contact-form">
+  <mat-stepper orientation="vertical" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel></ng-template>
+        <mat-form-field fxLayout="row" fxLayoutAlign="start center"  appearance="standard">
+          <mat-label>What should I call you?</mat-label>
+          <input matInput placeholder="Name">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+
+        <mat-card-actions>
+          <p>
+            <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+              <mat-tree-node *matTreeNodeDef="let node" matTreeNodeToggle matTreeNodePadding>
+                <button mat-icon-button disabled></button>
+                <mat-checkbox class="checklist-leaf-node"
+                              [checked]="checklistSelection.isSelected(node)"
+                              (change)="todoLeafItemSelectionToggle(node)">{{node.item}}</mat-checkbox>
+              </mat-tree-node>
+            
+              <mat-tree-node *matTreeNodeDef="let node; when: hasNoContent" matTreeNodePadding>
+                <button mat-icon-button disabled></button>
+                <mat-form-field appearance="fill">
+                  <mat-label>New item...</mat-label>
+                  <input matInput #itemValue placeholder="Ex. Lettuce">
+                </mat-form-field>
+                <button mat-button (click)="saveNode(node, itemValue.value)">Save</button>
+              </mat-tree-node>
+            
+              <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding>
+                <button mat-icon-button matTreeNodeToggle
+                        [attr.aria-label]="'Toggle ' + node.item">
+                  <mat-icon class="mat-icon-rtl-mirror">
+                    {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+                  </mat-icon>
+                </button>
+                <mat-checkbox [checked]="descendantsAllSelected(node)"
+                              [indeterminate]="descendantsPartiallySelected(node)"
+                              (change)="todoItemSelectionToggle(node)">{{node.item}}</mat-checkbox>
+                <button mat-icon-button (click)="addNewItem(node)"><mat-icon>add</mat-icon></button>
+              </mat-tree-node>
+            </mat-tree>
+          </p>
+        </mat-card-actions>
+
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="thirdFormGroup">
+      <form [formGroup]="thirdFormGroup">
+        <ng-template matStepLabel></ng-template>
+        <mat-form-field class="example-full-width" fxLayout="row" fxLayoutAlign="center center">
+          <mat-label>Details</mat-label>
+          <textarea rows="10" cols= "100"  matInput placeholder="Ex. It makes me feel..."></textarea>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div> 
+      </form>
+    </mat-step>
+
+    <mat-step>
+      <ng-template matStepLabel></ng-template>
+      <p>You are now done.</p>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-stepper>
+</form>
+  </div>
+</div>
+</mat-card-content>
+</mat-card>
+</div>
