@@ -25,18 +25,46 @@ export class TodoItemFlatNode {
  * The Json object for to-do list data.
  */
 const TREE_DATA = {
-  'Web Development': {
-    'Frontend Development': null,
-    'Back': null,
-    'Protein Powder': null,
-    Fruits: {
-      Apple: null,
-      Berries: ['Blueberry', 'Raspberry'],
-      Orange: null,
-    },
+  'Figma': ['Design'],
+  'Web': {
+    Frontend: {
+      HTMLCSS: null,
+      Angular: null,
+      React: null,
+      Boostrap: null,
+      Material: null,
+     },
+     Backend : {
+      APIs: null,
+    
+     },  
   },
-  Reminders: ['Cook dinner', 'Read the Material Design spec', 'Upgrade Application to Angular'],
+  'Database': {
+    'PostgreSQL': null,
+    'MySQL': null,
+    'Oracle': null,
+  },
+
+  Other: ['',],
 };
+
+
+
+// const TREE_DATA = {
+//   'Web Development': {
+//     'Frontend Development': null,
+//     'Back': null,
+//     'Protein Powder': null,
+//     Fruits: {
+//       Apple: null,
+//       Berries: ['Blueberry', 'Raspberry'],
+//       Orange: null,
+//     },
+//   },
+//   Reminders: ['Cook dinner', 'Read the Material Design spec', 'Upgrade Application to Angular'],
+// };
+
+
 
 /**
  * Checklist database, it can build a tree structured Json object.
