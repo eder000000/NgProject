@@ -34,6 +34,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatStepperModule} from '@angular/material/stepper';
+import { ServicesComponent } from './services/services.component';
 
 
 
@@ -70,7 +71,8 @@ const Ux_Modules = [
     PostsComponent,
     PortfolioComponent,
     CofeeOneComponent,
-    ContactFormComponent 
+    ContactFormComponent,
+    ServicesComponent 
   ],
   imports: [
     BrowserModule,

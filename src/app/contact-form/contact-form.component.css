@@ -1,9 +1,9 @@
 body, html{
-
 }
 
 .container{
     height: 100vh;
+    width: auto;
     background: linear-gradient(180deg, 
     hsla(208, 33%, 21%, 1) 0%, 
     hsla(211, 36%, 46%, 1) 100%);
@@ -13,15 +13,21 @@ body, html{
 .card-form{
     margin-top: 5rem;
     background-color: white;
-    width: 90%;
-    max-width: 550px;
+    max-width: 500px;
+    width: 85%;
     border: 0 none;
     border-radius: 3px;
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
 }
 
+
+
 .button_{
     margin-top: 4rem;
+}
+
+.mat-step{
+    width: 70%;
 }
 
 .mat-stroked-button :mat-success:hover{
@@ -29,15 +35,10 @@ body, html{
 }
 
 .mat-form-field{
-    width: 95%;
+    max-width: 80%;
 }
 
-.example-full-width{
-    width: 100%;
-}
 
 .button-home{
     margin-top: 4rem;
 }
-
-  

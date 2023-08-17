@@ -26,7 +26,7 @@ export class TodoItemFlatNode {
  */
 const TREE_DATA = {
   'Figma': ['Design'],
-  'Web': {
+  'Web':  {
     Frontend: {
       HTMLCSS: null,
       Angular: null,
@@ -36,7 +36,7 @@ const TREE_DATA = {
      },
      Backend : {
       APIs: null,
-    
+  
      },  
   },
   'Database': {
@@ -45,7 +45,7 @@ const TREE_DATA = {
     'Oracle': null,
   },
 
-  Other: ['',],
+  Other: [''],
 };
 
 
